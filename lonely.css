@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Oswald:wght@600&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fraunces:ital@1&family=Open+Sans:ital,wght@1,600&family=Oswald:wght@600&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+body{
+    background: rgba(165, 204, 243, 1)
+
+}
+
+
+
+#pic{
+  transition: all 1s;
+  transition-delay:.2s;
+  box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, .3);
+
+}
+
+#pic:hover{
+  box-shadow: 5px 5px 20px 10px rgba(0,0,0,.7);
+}
+
+#pic:active{
+    opacity:.4;
+
+}
+
+#text{
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, .3);
+    font-weight:900;
+    font-family:'Oswald', sans-serif;
+}
+
+#caption{
+    font-family:'Open Sans', sans-serif;
+    text-decoration: underline;
+
+}
